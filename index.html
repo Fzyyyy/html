@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>九宫格盒子</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		.a1	{
+			height: 100px;
+			background-color: lightgreen;
+			position: relative;
+			top: 10px;
+			left: 10px;
+			z-index: 4;
+		}
+		.a2 {
+			height: 100px;
+			background-color: lightcoral;
+			position: relative;
+			z-index: 5;
+		}
+		.a3{
+			height: 100px;
+			background-color: lawngreen;
+		}
+		.a4 {
+			height: 100px;
+			background-color: lightblue;
+		}
+		.a5 {
+			height: 100px;
+			background-color: lavender;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+		}
+		.a6 {
+			height: 200px;
+			background-color: lightpink;
+			position: relative;
+		}
+
+	</style>
+</head>
+<body>
+
+		<div class="a1">11111111</div>
+		<div class="a2">22222222</div>
+		<div class="a3">33333333</div>
+		<div class="a4">44444444</div>
+		<div class="a6">
+			<div class="a5">55555555</div>
+		</div>
+
+
+</body>
+</html>
